@@ -26,7 +26,8 @@ Once the config file is configured, the script can be run locally and will produ
 ### Implementation notes
 Users can alter the report dictionary within the script's final for loop to change the contents of the final report.
 
-For reference, below is an example response from the 'Get Check Details' command which forms the basis of the final report.  
+For reference, below is an example response from the 'Get Check Details' command which forms the basis of the final report. 
+API documentation: https://cloudone.trendmicro.com/docs/conformity/api-reference/tag/Checks#paths/~1checks~1{checkId}/get  
 
     {
         "data": {
